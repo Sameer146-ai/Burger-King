@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burger-KING</title>
+    <title>Burger King </title>
+     <link rel="stylesheet" href="style.js">
 </head>
 <body>
-    Burger King
+    <header id="header">
+        <div id="order-id"></div>
+        <img src="/asset/Burger_King_2020.svg.png" alt="Burger King Logo" style="width: 50px; height: 50px; float: inline-start; border-radius: 50px;">
+        <h1 style="color: rgb(240, 231, 231) ; font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;letter-spacing: 4px;">Welcome to Burger King</h1>
+    </header>
+    <main>
+        <h2>Menu Card</h2>
+        <div id="food-selection" class="select">
+            <div class="burger">
+              <h1>Burger</h1>
+              <span style="color: rgb(235, 224, 24); float: end;">( Any 70/-)</span>
+              <label>
+                  <input type="checkbox" value="doublecheburger" /> DoubleChesse 
+              </label>
+              <label>
+                  <input type="checkbox" value="impsble" /> Whopper
+              </label>
+                <label>
+                    <input type="checkbox" value="Burger" /> Burger
+                </label>
+                <label>
+                    <input type="checkbox" value="whoper" /> Whopper 
+            </div>
+            <div class="drink">
+                <h1>Drink</h1>
+                <span style="color: rgb(235, 224, 24); float: end;">( Any 50/-)</span>
+                <label>
+                    <input type="checkbox" value="frozen" />Lemonade
+                </label>
+                <label>
+                    <input type="checkbox" value="soft" /> Soft Drink
+                </label>
+                <label>
+                    <input type="checkbox" value="icetea" /> IceTea
+                </label>
+                <label>
+                    <input type="checkbox" value="coffee" /> Coffee
+                </label>
+            </div>
+            <div class=" Sides">
+                <h1>Sides</h1>
+                <span style="color: rgb(235, 224, 24); float: end;">( Any 100/-)</span>
+                <label>
+                    <input type="checkbox" value="mzstick" /> Mozzarella Sticks
+                </label>
+                <label>
+                <input type="checkbox" value="Fries" /> French Fries
+            </label>
+            <label>
+                <input type="checkbox" value="oring" /> Onion Rings
+            </label>
+                <label>
+                <input type="checkbox" value="hsbrow" /> Hash Browns
+            </label>
+        </div>
+        <div class="desert">
+            <h1>Desserts</h1>
+            <span style="color: rgb(235, 224, 24); float: end;">( Any 80/-)</span>
+            <label>
+                <input type="checkbox" value="hp" /> Hershey's Pie
+            </label>
+            <label>
+                <input type="checkbox" value="softscurve" /> SoftCone 
+            </label>
+            <label>
+                <input type="checkbox" value="sundae" /> Sundae
+            </label>
+                <label>
+                    <input type="checkbox" value="chltecc" /> ChocolateChip Cookies
+                </label>
+        </div>
+    </div>
+    <div class="flex">
+        <button id="order-button" >Place Order</button>
+        <div id="order-result" style="display: none;"></div>
+    </div>
+
+        <footer>
+            <span>© 2024 Burger King. All rights reserved.</span> 
+        </footer>
+        <script src="Script.js"></script>
 </body>
-</html>
+</html> 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
